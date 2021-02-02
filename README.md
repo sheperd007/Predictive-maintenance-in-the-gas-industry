@@ -1,2 +1,6 @@
 # Predictive-maintenance-in-the-gas-industry
 Computer maintenance management systems play a key role in improving the efficiency of gas industry maintenance programs. These systems, by recording the history of accidents and incidents in the database based on the specialized standard of collecting and exchanging reliable data (reliability) of the oil and gas industry, including ISO 14224, the possibility of storing and accessing this data and its proper use. they prepare. Because this data is unique to the system, data analysis or data mining operations on this data lead to the acquisition of unique operational information that is specific to the region, industry and climate. In addition, by performing system analyzes on this data and other operational data, it is possible to intelligently plan maintenance and repairs, and by analyzing the status of the system and its implementation, and by being aware of the technical conditions of the equipment under Exploitation devised appropriate action.
+
+Attention:
+Dear ones, please members of each subgroup put their code in a folder named after the same subgroup, for example DA is the location of the data mining group code.
+Of course, these categories are only suitable for filing, and there is active collaboration between all members, and different people will re-examine each other's code and help each other.
