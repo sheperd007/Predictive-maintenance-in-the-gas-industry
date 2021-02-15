@@ -1,4 +1,4 @@
-#Naive Bayes
+#Naive Bayes # only 5 column (feeder,COB,DFB,DOFDB,EENS)
 data=read.csv(file.choose())
 str(data)
 #######################################
