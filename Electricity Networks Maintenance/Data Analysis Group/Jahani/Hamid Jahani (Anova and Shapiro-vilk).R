@@ -1,5 +1,5 @@
 library(readxl)
-Data <-data.frame(read_excel("Downloads/output.xls")) 
+Data <-data.frame(read_excel("/media/sda6/Projects/Data Mining on gas Network/output.xls")) 
 z=c(9,4,3)
 x=c("Categorical","Countinus","Timestamp")
 xx=barplot(z,names.arg = x,ylab = "Number of Variable",xlab = "Variable type")
@@ -52,3 +52,8 @@ kruskal.test(EENS ~ feeder, data = Data)
 #Multiple pairwise-comparison between groups
 pairwise.wilcox.test(Data$EENS, Data$feeder,
                      p.adjust.method = "none")
+
+
+
+library(snpar)
+runs.test(Data$EENS)
